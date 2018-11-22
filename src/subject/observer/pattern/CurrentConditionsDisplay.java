@@ -2,7 +2,10 @@ package subject.observer.pattern;
 
 public class CurrentConditionsDisplay implements IObserver, IDisplayElement
 {	
+	/**using the principle  - Program to an interface not an implementation*/
+	/**using the principle  - favor composition over inheritance */
 	private ISubject weatherData; 
+	
 	private float temperature;
 	private float humidity;
 	private float pressure;
